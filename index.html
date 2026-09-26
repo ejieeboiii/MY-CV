@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ed Anthony E. Medina | Personal CV</title>
+
+  <!-- Google Fonts: Fraunces for headings, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION BAR ============ -->
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#home" class="nav-brand">EJ<span class="nav-brand-dot">.</span></a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+
+    <!-- ============ HOME / INTRODUCTION ============ -->
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <div class="hero-topline">
+          <span>BSIT 4G · IT415</span>
+          <span>PANABO CITY</span>
+          <span>AVAILABLE FOR INTERNSHIP</span>
+        </div>
+
+        <h1 class="hero-name">EJ<br><span>Medina</span></h1>
+        <p class="hero-role">Aspiring Software Developer &amp; IT Student</p>
+        <p class="hero-text">
+          I'm a 4th year Information Technology student who enjoys building
+          simple, useful, and clean software. This page is a short summary
+          of who I am, what I've studied, and what I can do.
+        </p>
+        <div class="hero-actions">
+          <a href="#education" class="btn btn-primary">View My Education</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="portrait-ring"></div>
+        <div class="hero-avatar">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ME / PROFILE ============ -->
+    <section id="about" class="section">
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <p class="section-subtitle">A short introduction to who I am</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a 4th year BSIT student with a genuine interest in web
+            development and problem-solving through technology. Over the
+            course of my studies, I have worked on individual assignments
+            and group projects that helped me practice both technical
+            skills and teamwork.
+          </p>
+          <p>
+            I enjoy learning new tools and figuring out how things work
+            behind the scenes. I am currently focused on strengthening my
+            foundation in web development, and I am always open to learning
+            more through hands-on projects like this one. I also like music
+            and movies, which help me relax and stay inspired.
+          </p>
+        </div>
+
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <h3>Focus</h3>
+            <p>Web Development</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Level</h3>
+            <p>4th Year College</p>
+          </div>
+          <div class="highlight-card">
+            <h3>Status</h3>
+            <p>Open to Learning</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-number">4+</span>
+          <span class="stat-label">Years of Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">30+</span>
+          <span class="stat-label">Projects Completed</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Happy Clients</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section section-alt">
+      <div class="section-heading">
+        <h2>Education</h2>
+        <p class="section-subtitle">My academic background</p>
+      </div>
+
+      <div class="education-card">
+        <div class="education-main">
+          <h3>Bachelor of Science in Information Technology (BSIT)</h3>
+          <p class="education-school">Davao del Norte State College</p>
+        </div>
+        <div class="education-details">
+          <p><strong>Year Level:</strong> 4th Year</p>
+          <p><strong>Set/Section:</strong> BSIT 4G</p>
+          <p><strong>Relevant Subject:</strong> IT415</p>
+        </div>
+        <p class="education-note">
+          My coursework covers programming, web development, databases,
+          and IT-related subjects that prepare me for real-world software
+          projects.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <h2>Skills</h2>
+        <p class="section-subtitle">Tools and technologies I work with</p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>Structuring web pages with clean, semantic markup.</p>
+        </div>
+        <div class="skill-card">
+          <h3>CSS</h3>
+          <p>Styling layouts, colors, and responsive designs.</p>
+        </div>
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Adding interactivity and simple logic to web pages.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Git / GitHub</h3>
+          <p>Version control and managing projects with repositories.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Visual Studio Code</h3>
+          <p>My main code editor for writing and organizing projects.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Basic UI/UX Design</h3>
+          <p>Designing simple layouts that are easy to use and read.</p>
+        </div>
+        <div class="skill-card">
+          <h3>Basic Database Knowledge</h3>
+          <p>Understanding how data is stored, organized, and queried.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT INFORMATION ============ -->
+    <section id="contact" class="section section-alt">
+      <div class="contact-cta">
+        <h2>Let's build<br>something amazing</h2>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-card">
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <span class="contact-value">edanthonymedina@gmail.com</span>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <span class="contact-value">09936091550</span>
+            </li>
+            <li>
+              <span class="contact-label">Address</span>
+              <span class="contact-value">San Vicente, Panabo City, Davao del Norte</span>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <span class="contact-value"></span>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <span class="contact-value">https://github.com/ejieeboiii</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-orbit" aria-hidden="true">
+          <div class="orbital-ring ring-one"></div>
+          <div class="orbital-ring ring-two"></div>
+          <div class="orbital-core"></div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Ed Anthony E. Medina. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
